@@ -1,0 +1,68 @@
+h1{
+    background-color: #7bed9f;
+    color: forestgreen;
+    text-align: center;
+}
+
+/*h4{
+    text-align: center;
+    color: #6D214F;
+    display: flex;
+    border-radius: 10px;
+    display: flex;
+    padding-bottom: 10px;
+}*/
+
+.Grid{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    padding-inline-end: 5px;
+    justify-content: space-around;
+}
+
+.Links{
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+*{
+    background-color: cornflowerblue;
+}
+
+.Items p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Links{
+    margin-right: 30px;
+}
+
+a:link{
+    color: #34495e;
+}
+
+a:visited{
+    color: whitesmoke;
+}
+
+.Items:hover img{
+    opacity: 0.33;
+}
+
+.Items:hover p{
+    opacity: 0.33;
+}
+
+/*p{
+    padding-inline-start: 748px;
+    padding-top: 20px;
+}*/
